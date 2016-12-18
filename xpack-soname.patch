@@ -1,0 +1,11 @@
+--- xpack-0.1/Makefile.orig	2016-05-14 16:48:39.000000000 +0200
++++ xpack-0.1/Makefile	2016-12-18 21:29:34.847791702 +0100
+@@ -101,7 +101,7 @@
+ 
+ # Link shared library
+ $(SHARED_LIB):$(SHLIB_OBJ)
+-	$(QUIET_CCLD) $(CC) -o $@ $(LDFLAGS) $(LIB_CFLAGS) -shared $+
++	$(QUIET_CCLD) $(CC) -o $@ $(LDFLAGS) $(LIB_CFLAGS) -shared $+ -Wl,-soname,libxpack.so.0
+ 
+ ALL_TARGETS += $(SHARED_LIB)
+ 
