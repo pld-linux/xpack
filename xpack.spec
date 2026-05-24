@@ -2,7 +2,7 @@ Summary:	Library for experimental XPACK compression format
 Summary(pl.UTF-8):	Biblioteka do eksperymentalnego formatu kompresji XPACK
 Name:		xpack
 Version:	0.1
-Release:	1
+Release:	2
 License:	MIT
 Group:		Libraries
 #Source0Download: https://github.com/ebiggers/xpack/releases
